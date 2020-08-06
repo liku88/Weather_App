@@ -24,10 +24,9 @@ public class MainActivity extends AppCompatActivity {
   Button button;
     private RequestQueue requestQueue;
 
-//    https://api.openweathermap.org/data/2.5/weather?q=Bhubaneswar&appid=108b491584680c467961749f8c9cbec0
 
   String BaseUrl = "https://api.openweathermap.org/data/2.5/weather?q=";
-  String API =  "&appid=108b491584680c467961749f8c9cbec0";
+  String API =  "You generate your app Id";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
